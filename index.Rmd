@@ -1,5 +1,5 @@
 ---
-title: "index"
+title: "Wage Map, Find Out Where You Can Get a Better Wage"
 author: "Diana Yunusova"
 date: "26/05/2020"
 output: html_document
@@ -9,24 +9,32 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+When you think of where people earn more money in London, you don't have to be Sherlock Holmes to deduce it is the city center. But what about the rest of London, which boroughs offer the best wages? 
 
-## Title
-# Including Plots
+The borough of City of London has an average annual salary of 90.000 for people working there. Tower Hamlets is way behind, with almost 70.000, Westminster is around 63.500 and Islington 53.100. The rest of the boroughs have an average salary below 50.000 a year with some of them as low as 32.000 a year. 
 
 <iframe style="width:100%; height: 60vh;" src="html/map_london_2018_workplace_mean.html" title="Map"></iframe>
 
+Since the gap between the richest borough and the rest of London is quite big, it is difficult to see what is happening in other boroughs of the city. To get more representative data, I divided boroughs into five groups with seven boroughs in each (two groups have six boroughs), according to the average salary from lowest to highest. The tendency is still there: the wealthy part concentrated in the center, but starts to go a little bit west as well. So if you want to have one of the highest salaries in London, you have to consider working in the center-west area around the Thames. Eastern boroughs offer the lowest wage, so maybe it's worth it living there but definitely not working. 
+
 <iframe style="width:100%; height: 60vh;" src="html/map_london_2018_workplace_group.html" title="Map"></iframe>
+
+# How rich is your neighbour?
+
+Differences in residency of the best paid occupancies is also more illustrative when we do the same trick and divide all boroughs into five groups. Kensington data regarding wage grouped by residency is missing in all official sources. 
 
 <iframe style="width:100%; height: 60vh;" src="html/map_london_2018_residence_mean.html" title="Map"></iframe>
 
+The richest people of the city tend to live in central west boroughs such as City of London, Westminster, Hammersmith and Fulham, Richmond, Wandsworth. A notable difference is between southern and northern London: the seven low income dwellers live in the North of the city, more precisely, in the North West (Hillingdon) and in the North East (Havering, Barking). The second richest group lives in the boroughs located south of the Thames, such as Merton, Bromley, Kingston.
+
 <iframe style="width:100%; height: 60vh;" src="html/map_london_2018_residence_group.html" title="Map"></iframe>
 
-## Male / female difference
+## Gender pay gap
+
+According to ONS data, in all boroughs of London except Sutton, men are better paid than women. Moreover, the Northern and Central parts of the city have more unequal boroughs compared to the south. There are only 8 boroughs which have an inequality level below 20%. Barnet has the biggest gender gap in salaries: men's wage is 61.52% higher than women.
+While the City of London borough has a gap of 54.76%, Liverpool and Manchester city centres (see in the menu “Maps”) have better working environments for women with 24.3% and 27.2% respectively. 
 
 <iframe style="width:100%; height: 60vh;" src="html/map_london_2018_workplace_pct.html" title="Map"></iframe>
 

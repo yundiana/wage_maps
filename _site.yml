@@ -1,7 +1,7 @@
-name: "Testing"
+name: "Wage Map"
 output_dir: "."
 navbar:
-  title: "Testing"
+  title: "Wage Map"
   left:
     - text: "Maps"
       menu:
