@@ -1,0 +1,143 @@
+name: "Testing"
+output_dir: "."
+navbar:
+  title: "Testing"
+  left:
+    - text: "Maps"
+      menu:
+        - text: "London"
+          menu:
+          - text: "2016"
+            menu:
+              - text: "5 Groups by Residence Location"
+                href: london_2016_residence_group.html
+              - text: "Annual Average Salary by Residence Location"
+                href: london_2016_residence_mean.html
+              - text: "% Excess male over female salary by Residence Location"
+                href: london_2016_residence_pct.html
+              - text: "5 Groups by Workplace Location"
+                href: london_2016_workplace_group.html
+              - text: "Annual Average Salary by Workplace Location"
+                href: london_2016_workplace_mean.html
+              - text: "% Excess male over female salary by Workplace Location"
+                href: london_2016_workplace_pct.html
+          - text: "2017"
+            menu:
+              - text: "5 Groups by Residence Location"
+                href: london_2017_residence_group.html
+              - text: "Annual Average Salary by Residence Location"
+                href: london_2017_residence_mean.html
+              - text: "% Excess male over female salary by Residence Location"
+                href: london_2017_residence_pct.html
+              - text: "5 Groups by Workplace Location"
+                href: london_2017_workplace_group.html
+              - text: "Annual Average Salary by Workplace Location"
+                href: london_2017_workplace_mean.html
+              - text: "% Excess male over female salary by Workplace Location"
+                href: london_2017_workplace_pct.html
+          - text: "2018"
+            menu:
+              - text: "5 Groups by Residence Location"
+                href: london_2018_residence_group.html
+              - text: "Annual Average Salary by Residence Location"
+                href: london_2018_residence_mean.html
+              - text: "% Excess male over female salary by Residence Location"
+                href: london_2018_residence_pct.html
+              - text: "5 Groups by Workplace Location"
+                href: london_2018_workplace_group.html
+              - text: "Annual Average Salary by Workplace Location"
+                href: london_2018_workplace_mean.html
+              - text: "% Excess male over female salary by Workplace Location"
+                href: london_2018_workplace_pct.html
+        - text: "Liverpool"
+          menu:
+          - text: "2016"
+            menu:
+              - text: "5 Groups by Residence Location"
+                href: liverpool_2016_residence_group.html
+              - text: "Annual Average Salary by Residence Location"
+                href: liverpool_2016_residence_mean.html
+              - text: "% Excess male over female salary by Residence Location"
+                href: liverpool_2016_residence_pct.html
+              - text: "5 Groups by Workplace Location"
+                href: liverpool_2016_workplace_group.html
+              - text: "Annual Average Salary by Workplace Location"
+                href: liverpool_2016_workplace_mean.html
+              - text: "% Excess male over female salary by Workplace Location"
+                href: liverpool_2016_workplace_pct.html
+          - text: "2017"
+            menu:
+              - text: "5 Groups by Residence Location"
+                href: liverpool_2017_residence_group.html
+              - text: "Annual Average Salary by Residence Location"
+                href: liverpool_2017_residence_mean.html
+              - text: "% Excess male over female salary by Residence Location"
+                href: liverpool_2017_residence_pct.html
+              - text: "5 Groups by Workplace Location"
+                href: liverpool_2017_workplace_group.html
+              - text: "Annual Average Salary by Workplace Location"
+                href: liverpool_2017_workplace_mean.html
+              - text: "% Excess male over female salary by Workplace Location"
+                href: liverpool_2017_workplace_pct.html
+          - text: "2018"
+            menu:
+              - text: "5 Groups by Residence Location"
+                href: liverpool_2018_residence_group.html
+              - text: "Annual Average Salary by Residence Location"
+                href: liverpool_2018_residence_mean.html
+              - text: "% Excess male over female salary by Residence Location"
+                href: liverpool_2018_residence_pct.html
+              - text: "5 Groups by Workplace Location"
+                href: liverpool_2018_workplace_group.html
+              - text: "Annual Average Salary by Workplace Location"
+                href: liverpool_2018_workplace_mean.html
+              - text: "% Excess male over female salary by Workplace Location"
+                href: liverpool_2018_workplace_pct.html
+        - text: "Manchester"
+          menu:
+          - text: "2016"
+            menu:
+              - text: "5 Groups by Residence Location"
+                href: manchester_2016_residence_group.html
+              - text: "Annual Average Salary by Residence Location"
+                href: manchester_2016_residence_mean.html
+              - text: "% Excess male over female salary by Residence Location"
+                href: manchester_2016_residence_pct.html
+              - text: "5 Groups by Workplace Location"
+                href: manchester_2016_workplace_group.html
+              - text: "Annual Average Salary by Workplace Location"
+                href: manchester_2016_workplace_mean.html
+              - text: "% Excess male over female salary by Workplace Location"
+                href: manchester_2016_workplace_pct.html
+          - text: "2017"
+            menu:
+              - text: "5 Groups by Residence Location"
+                href: manchester_2017_residence_group.html
+              - text: "Annual Average Salary by Residence Location"
+                href: manchester_2017_residence_mean.html
+              - text: "% Excess male over female salary by Residence Location"
+                href: manchester_2017_residence_pct.html
+              - text: "5 Groups by Workplace Location"
+                href: manchester_2017_workplace_group.html
+              - text: "Annual Average Salary by Workplace Location"
+                href: manchester_2017_workplace_mean.html
+              - text: "% Excess male over female salary by Workplace Location"
+                href: manchester_2017_workplace_pct.html
+          - text: "2018"
+            menu:
+              - text: "5 Groups by Residence Location"
+                href: manchester_2018_residence_group.html
+              - text: "Annual Average Salary by Residence Location"
+                href: manchester_2018_residence_mean.html
+              - text: "% Excess male over female salary by Residence Location"
+                href: manchester_2018_residence_pct.html
+              - text: "5 Groups by Workplace Location"
+                href: manchester_2018_workplace_group.html
+              - text: "Annual Average Salary by Workplace Location"
+                href: manchester_2018_workplace_mean.html
+              - text: "% Excess male over female salary by Workplace Location"
+                href: manchester_2018_workplace_pct.html                
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
